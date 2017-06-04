@@ -12,3 +12,11 @@ class TimecoverspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+class MagazineCover(scrapy.Item):
+    title = scrapy.Field()
+    pubDate = scrapy.Field()
+    image_urls = scrapy.Field()
+    images = scrapy.Field()
+    # file_urls = scrapy.Field()
+    # files = scrapy.Field()
